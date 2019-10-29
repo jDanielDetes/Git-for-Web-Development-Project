@@ -1,0 +1,107 @@
+Code pen link below!
+
+https://codepen.io/Jdanieldetes/pen/XWWedXJ?editors=1100
+
+
+
+Copy the questions below into the firt-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? 
+elements with a meaning
+    2. What is HTML used for?
+to build the skeleton of our website per-say 
+    3. What is an attribute and where do we put it? 
+A attribute gives more information to HTML elements or modifies
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+The H1 tag is used to grab the users attention and is the most important thing you want the user to see
+it's only used once!
+    5. Name two tags that have required attributes
+<a> and <img>
+    6. What do we put in the head of our HTML document?
+<header> 
+    7. What is an id? 
+an ID is a unique tag we can apply to somthing that can only be used once 
+    8. What elements can I add an id to? 
+html elements?
+    9. How many times can I use the same id on a page?
+only once! 
+    10. What is a class?
+a class is slightly similar to a ID but it can be applied to multiple things to group them 
+    11. What elements can I add a class to?
+anything 
+    12. How many times can I use the same class on a page?
+multiple times 
+    13. How do I get my link to open in a new tab?
+you set the target as "_blank"
+
+    14. What is the alt attribute used for?
+alt is used incase the image doesn't load or if the user is using text to speech 
+    15. How do I reference an id?
+with the #
+    16. What is the difference between a section and a div
+a sections means all the content is grouped together and a div is not grouped but with a class you can apply things to multiple things
+    17. What is CSS used for? 
+CSS is used only for styling
+    18. How to we select an element? Example - every h2 on the page
+h2{ code here}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+class can be used for multiple items ex: i want all titles to turn green when hovered on. A ID could be unique to somthing ex: i want the user to click on a box and have it move once
+    20. How do we select classes in CSS?
+with the .classexample 
+    21. How do we select a p element with a single class of “human””?
+.human p {code here}
+    22. What is a parent child selector? When would this be useful? 
+it's to select elements with a parent, its useful if you need to be specific on what to change
+
+    23. How do you select all links within a div with the class of sidebar?
+.class div a{code here}
+    24. What is a pseudo selector?
+used to define a state of a element
+    25. What do we use the change the spacing between lines?
+line-height
+    26. What do we use to change the spacing between letters?
+letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+we use text-transform : uppercase,lowercase and capitlize 
+    28. How do I add a 1px border around my div that is dotted and black?
+div{ border-style:dotted;
+	border-width:1px;
+	bordfer-color:black;
+    29. How do I select everything on the page? 
+with the *
+    30. How do I write a comment in CSS?
+/*  */
+    31. How do I find out what file I am in, when I am using the command line? 
+pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+del/ "filename"  you have to becarefule because this will permanantly delete the file
+    34. Why should I use version control? 
+it helps you better communicate and work with your team
+    35. How often should I commit to github?
+ideally every 20min 
+    36. What is the command we would use to push our repo up to github?
+git push (if its a branch then use git push-u origin "branch name" 
+    37. Walk me through Lambda's git flow. 
+1.fork the project
+2.Add TL ass collaborator
+3. git clone 
+4. create a branch ie git checkout-b "daniel-detes
+5. make a small change then commit 
+6.got back to gitup and pull request
+7. make sure to click with your fork 
+8. under reviews add pm 
+
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+you can put block elements in inline elements inline does not make a new line but block causes a line break to happen
+    2. What happens when an element is positioned absolutely? 
+its positioned to its nearest element
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the fix for the box model? 
+
